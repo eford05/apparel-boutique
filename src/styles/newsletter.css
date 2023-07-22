@@ -1,0 +1,41 @@
+.newsletter {
+  width: 100%;
+  height: 40vh;
+  background-color: #faf9f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.news-title {
+  font-size: 1.8rem;
+}
+
+.news-desc {
+  font-size: 1.1rem;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.input-wrapper input[type="email"] {
+  width: 30rem;
+  font-size: 1.4rem;
+  padding: 0.2rem 1rem;
+  border: 1px solid lightgrey;
+}
+
+.input-wrapper button {
+  border: none;
+  background-color: #0b666a;
+  padding: 0.5rem 1rem;
+}
+
+.news-icon {
+  font-size: 1.6rem;
+  color: #fff;
+}

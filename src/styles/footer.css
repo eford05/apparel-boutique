@@ -1,0 +1,42 @@
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #faf9f5;
+  padding: 3rem;
+  text-align: center;
+}
+
+footer div ul {
+  display: flex;
+  gap: 1rem;
+}
+
+footer div ul li a {
+  font-size: 1.1rem;
+}
+
+.help-services {
+  text-decoration: underline solid #000;
+}
+
+.social-icon {
+  font-size: 1.4rem;
+}
+
+.payment-icon {
+  font-size: 2rem;
+}
+
+footer div:nth-of-type(3),
+footer div:nth-of-type(4) {
+  width: 100%;
+  border-bottom: 0.001rem solid lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}

@@ -1,0 +1,34 @@
+.product-card {
+  position: relative;
+  width: 100%;
+}
+
+.product-card-fig {
+  width: 100%;
+  height: 30rem;
+}
+
+.product-card-fig img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-card-title {
+  font-size: 1.2rem;
+}
+
+.price-slash {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.slash {
+  color: red;
+}
+
+.price,
+.sale {
+  font-size: 1.2rem;
+  color: #000;
+}

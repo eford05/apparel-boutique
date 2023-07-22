@@ -1,0 +1,17 @@
+.announcement {
+  background-color: #000;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.announcement span {
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.announcement a {
+  color: white;
+  text-decoration: underline;
+}
